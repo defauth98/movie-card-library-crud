@@ -1,0 +1,32 @@
+#movie-list {
+  display: flex;
+
+  flex-direction: column;
+}
+
+#title {
+  margin: 2rem auto 1rem auto;
+  color: white;
+}
+
+#add-button {
+  color:white;
+  margin: 0 auto 1rem auto;
+  background-color: red;
+  padding: 1rem;
+  border-radius: 4px;
+  opacity: 0.6;
+}
+
+#add-button:hover {
+  opacity: 0.8;
+}
+
+#movies {
+  width: 80%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin: 0 auto;
+}
