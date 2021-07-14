@@ -42,11 +42,22 @@ class MovieList extends Component {
 
     return (
       <div data-testid="movie-list" id="movie-list">
-        <h1 id="title">My Movie Library</h1>
+        <header>
+          <h1>My Movie Library</h1>
+        </header>
 
-        <Link to="/movies/new" id="add-button">ADICIONAR CARTÃO</Link>
+        <main>
+          { movies.length > 1 ? this.renderMovies(movies) : <Loading /> }
 
-        { movies.length > 1 ? this.renderMovies(movies) : <Loading /> }
+          {movies.length > 1 && (
+            <Link
+              to="/movies/new"
+              id="add-button"
+            >
+              ADICIONAR CARTÃO
+            </Link>
+          )}
+        </main>
       </div>
     );
   }
