@@ -49,6 +49,16 @@ const movies = [
     bookmarked: true,
     genre: 'fantasy',
   },
+  {
+    id: 6,
+    title: 'Guerra de naves',
+    subtitle: 'Velozes e Furiosos 9',
+    storyline: 'O longa vem dando continuidade às corridas eletrizantes da equipe de amigos liderada por Dominic Toretto.',
+    rating: 5,
+    imagePath: 'https://www.universalpics.com.br/tl_files/content/movies/fast9/posters/03.jpg',
+    bookmarked: true,
+    genre: 'action',
+  },
 ];
 
 export default movies;

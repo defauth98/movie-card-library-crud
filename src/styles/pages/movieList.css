@@ -30,5 +30,12 @@
 
 #movie-list main #movies {
   display: flex;
-  overflow: scroll;
+  height: 330px;
+  align-items: center;
+}
+
+
+#movie-list main h3 {
+  color: gray;
+  margin-top: 2rem;
 }

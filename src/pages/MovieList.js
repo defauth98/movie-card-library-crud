@@ -8,6 +8,8 @@ import * as movieAPI from '../services/movieAPI';
 
 import '../styles/pages/movieList.css';
 
+const FILMS_BY_LINE = 5;
+
 class MovieList extends Component {
   constructor() {
     super();
@@ -29,10 +31,20 @@ class MovieList extends Component {
     this.setState({ movies: response });
   }
 
-  renderMovies(movies) {
+  renderMovies(movies, page) {
     return (
       <div id="movies">
-        { movies.map((movie) => <MovieCard key={ movie.title } movie={ movie } />) }
+
+        { movies.map((movie, index) => {
+          const initialIndex = FILMS_BY_LINE * (page - 1);
+          const lastIndex = page * FILMS_BY_LINE - 1;
+
+          if (index >= initialIndex && index <= lastIndex) {
+            return <MovieCard key={ movie.title } movie={ movie } />;
+          }
+
+          return null;
+        }) }
       </div>
     );
   }
@@ -60,7 +72,11 @@ class MovieList extends Component {
         </header>
 
         <main>
-          { movies.length > 1 && this.renderMovies(movies) }
+          <h3>Destaques</h3>
+          { movies.length > 1 && this.renderMovies(movies, 1) }
+
+          <h3>Recem adicionados</h3>
+          { movies.length > 1 && this.renderMovies(movies, 2) }
         </main>
       </div>
     );
