@@ -40,6 +40,10 @@ class MovieList extends Component {
   render() {
     const { movies } = this.state;
 
+    if (movies.length === 0) {
+      return <Loading />;
+    }
+
     return (
       <div data-testid="movie-list" id="movie-list">
         <header>
@@ -47,7 +51,7 @@ class MovieList extends Component {
         </header>
 
         <main>
-          { movies.length > 1 ? this.renderMovies(movies) : <Loading /> }
+          { movies.length > 1 && this.renderMovies(movies) }
 
           {movies.length > 1 && (
             <Link

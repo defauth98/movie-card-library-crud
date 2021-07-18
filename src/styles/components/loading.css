@@ -1,9 +1,7 @@
-div #loading {
-  align-items: center;
-  color: white;
-  display: flex;
-  justify-content: center;
-  height: 100%;
+.loading-container {
   width: 100%;
-  font-size: 30px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
