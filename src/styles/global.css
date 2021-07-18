@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+:root {
+  --color-black: #141414;
+  --color-white: #E5E5E5;
+}
+
 @media ( max-width: 1080px ) {
   html {
     font-size: 93.75%;
