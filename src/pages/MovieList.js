@@ -48,10 +48,6 @@ class MovieList extends Component {
       <div data-testid="movie-list" id="movie-list">
         <header>
           <h1>My Movie Library</h1>
-        </header>
-
-        <main>
-          { movies.length > 1 && this.renderMovies(movies) }
 
           {movies.length > 1 && (
             <Link
@@ -61,6 +57,10 @@ class MovieList extends Component {
               ADICIONAR CARTÃO
             </Link>
           )}
+        </header>
+
+        <main>
+          { movies.length > 1 && this.renderMovies(movies) }
         </main>
       </div>
     );
