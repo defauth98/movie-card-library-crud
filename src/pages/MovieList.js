@@ -66,7 +66,7 @@ class MovieList extends Component {
               to="/movies/new"
               id="add-button"
             >
-              ADICIONAR CARTÃO
+              ADICIONAR FILME
             </Link>
           )}
         </header>
