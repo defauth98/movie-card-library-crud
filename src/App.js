@@ -5,7 +5,7 @@ import MovieList from './pages/MovieList';
 import MovieDetails from './pages/MovieDetails';
 import NewMovie from './pages/NewMovie';
 import EditMovie from './pages/EditMovie';
-import NotFound from './pages/NotFound';
+// import NotFound from './pages/NotFound';
 
 import './styles/global.css';
 
@@ -23,7 +23,7 @@ function App() {
           path="/movies/:id/edit"
           render={ (props) => <EditMovie { ...props } /> }
         />
-        <Route component={ NotFound } />
+        {/* <Route component={ NotFound } /> */}
       </Switch>
     </BrowserRouter>
   );

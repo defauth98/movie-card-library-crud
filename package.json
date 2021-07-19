@@ -2,7 +2,7 @@
   "name": "movie-cards-library-crud",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://defauth98.github.io/movie-cards-library-crud",
+  "homepage": "https:\/\/defauth98.github.io/movie-cards-library-crud",
   "dependencies": {
     "acorn": "7.1.1",
     "minimist": "1.2.3",
