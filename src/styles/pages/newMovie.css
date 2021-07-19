@@ -1,0 +1,22 @@
+#new-movie {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#new-movie-content {
+  width: 685px;
+  height: 730px;
+  background-color: black;
+  border-radius: 0.4rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+}
+
+#new-movie-content  h1 {
+  margin-bottom: 1rem;
+}
