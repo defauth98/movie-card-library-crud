@@ -47,7 +47,7 @@ class MovieDetails extends Component {
     return (
       <div data-testid="movie-details" id="movie-container">
         <div id="movie">
-          <img alt="Movie Cover" src={ `../${imagePath}` } />
+          <img alt="Movie Cover" src={ `${imagePath}` } />
           <div className="movie-info">
             <h1>{`Title: ${title}`}</h1>
             <p>{ `Subtitle: ${subtitle}` }</p>
