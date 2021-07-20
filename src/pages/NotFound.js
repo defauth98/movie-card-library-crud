@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
 
+import '../styles/pages/notFound.css';
+
 class NotFound extends Component {
   render() {
-    return <div data-testid="404-error">Está renderizando isso</div>;
+    return (
+      <div data-testid="404-error">
+        <h3>Not Found - 404</h3>
+        <br />
+        <strong>Página não foi encotrada :/</strong>
+      </div>);
   }
 }
 
