@@ -29,13 +29,27 @@
 }
 
 #movie-list main #movies {
-  display: flex;
-  height: 330px;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 
 #movie-list main h3 {
   color: gray;
   margin-top: 2rem;
+}
+
+@media (min-width: 1000px) {
+  #movie-list main #movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+@media (min-width: 1600px) {
+  #movie-list main #movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
 }

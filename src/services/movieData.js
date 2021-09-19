@@ -51,7 +51,7 @@ const movies = [
   },
   {
     id: 6,
-    title: 'Guerra de naves',
+    title: 'Velozes e Furiosos',
     subtitle: 'Velozes e Furiosos 9',
     storyline: 'O longa vem dando continuidade às corridas eletrizantes da equipe de amigos liderada por Dominic Toretto.',
     rating: 5,
