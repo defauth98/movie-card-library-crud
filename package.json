@@ -2,7 +2,7 @@
   "name": "movie-cards-library-crud",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:\/\/defauth98.github.io/movie-cards-library-crud",
+  "homepage": "https://defauth98.github.io/movie-cards-library-crud",
   "dependencies": {
     "acorn": "7.1.1",
     "minimist": "1.2.3",
@@ -21,8 +21,8 @@
     "eject": "react-scripts eject",
     "lint:styles": "npx stylelint '**/*.css'",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
