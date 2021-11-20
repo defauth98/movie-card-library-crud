@@ -55,7 +55,7 @@ const movies = [
     subtitle: 'Velozes e Furiosos 9',
     storyline: 'O longa vem dando continuidade às corridas eletrizantes da equipe de amigos liderada por Dominic Toretto.',
     rating: 5,
-    imagePath: 'https://www.universalpics.com.br/tl_files/content/movies/fast9/posters/03.jpg',
+    imagePath: 'https://br.web.img3.acsta.net/newsv7/21/08/18/16/43/1171723.jpg',
     bookmarked: true,
     genre: 'action',
   },

@@ -15,6 +15,12 @@
   background-color: gray;
   border: none;
   border-radius: 0.2rem;
+  color: white
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #333;
+  opacity: 1; /* Firefox */
 }
 
 #button-container {
