@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Redirect } from 'react-router';
 
 import PropTypes from 'prop-types';
-import { Loading, MovieForm } from '../components';
-import * as movieAPI from '../services/movieAPI';
+import { Loading, MovieForm } from '../../components';
+import * as movieAPI from '../../services/movieAPI';
 
-import '../styles/pages/editMovie.css';
+import './editMovie.css';
 
 class EditMovie extends Component {
   constructor(props) {

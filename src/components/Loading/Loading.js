@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactLoading from 'react-loading';
 
-import '../styles/components/loading.css';
+import './loading.css'
 
 const Loading = () => (
   <div className="loading-container">

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import '../styles/components/movieForm.css';
+import './movieForm.css'
 
 class MovieForm extends React.Component {
   constructor(props) {
