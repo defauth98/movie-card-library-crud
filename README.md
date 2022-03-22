@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="./.github/movie-library-crud.gif" align="center" width="900rem"/>
+  <img src="./.github/movie-crud.gif" align="center" width="900rem"/>
 </p>
 
 **Descrição**
