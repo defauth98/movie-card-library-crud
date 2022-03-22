@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router';
 
-import {MovieForm} from '../../components';
+import { MovieForm } from '../../components';
 import * as movieAPI from '../../services/movieAPI';
 
-import './newMovie.css'
+import './newMovie.css';
 
 class NewMovie extends Component {
   constructor(props) {

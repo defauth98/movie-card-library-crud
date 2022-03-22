@@ -7,7 +7,7 @@
 
 **Descrição**
 
-Aplicação web de um biblioteca de filmes. Podendo criar, listar e filtrar por filmes.
+Projeto desenvolvido durante o módulo de Frontend da Trybe. Consiste em uma biblioteca de filmes.
 
 ### :nut_and_bolt: Tecnologias
 
