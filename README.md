@@ -5,6 +5,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="./.github/movie-library-crud.gif" align="center" width="900rem"/>
+</p>
+
 **Descrição**
 
 Projeto desenvolvido durante o módulo de Frontend da Trybe. Consiste em uma biblioteca de filmes.
